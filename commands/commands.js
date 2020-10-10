@@ -1,4 +1,6 @@
-builtinModules.exports = {
+module.exports = {
     serverGreeting: require('./server-greeting'),
-    help: require('./help')
+    help: require('./help'),
+    info: require('./info'),
+    contact: require('./contact')
 }
